@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="3">
+
+    <TextView
+        android:layout_weight="2"
+        android:id="@+id/add_score_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="0000"
+        android:textColorHint="#757575"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:minHeight="48sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:padding="15dp"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/deleteScoreButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:minHeight="48dp"
+        app:iconGravity="textEnd"
+        app:iconPadding="0dp"
+        app:icon="@drawable/ic_delete_svgrepo_com" />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="1"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="2"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="3"
+            android:minHeight="48sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="4"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="5"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="6"
+            android:minHeight="48sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="7"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="8"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="9"
+            android:minHeight="48sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="50"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="0"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="20dp"
+            android:id="@+id/add_button_00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:text="00"
+            android:minHeight="48sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:padding="15dp"
+            android:id="@+id/add_button_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:text="Ok"
+            android:textSize="15sp"
+            android:minHeight="48sp"/>
+
+        <Button
+            android:padding="15dp"
+            android:id="@+id/add_button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="Cancel"
+            android:textSize="15sp"
+            android:minHeight="48sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

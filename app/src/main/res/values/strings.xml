@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">5000er Rennen</string>
+    <string name="action_reset">Reset Total Score</string>
+    <string name="action_reset_game">Reset Game</string>
+    <string name="three_or_four">Change Player Count</string>
+    <string name="edit_rolls">Edit Rolls</string>
+    <string name="do_you_want_to_reset_the_score">Do you want to reset the score?</string>
+    <string name="do_you_want_to_reset_the_game">Do you want to reset the game?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="add_button">+</string>
+    <string name="spieler_2">Spieler 2</string>
+    <string name="spieler_1">Spieler 1</string>
+    <string name="spieler_3">Spieler 3</string>
+    <string name="spieler_4">Spieler 4</string>
+    <string name="total_score">Total score:</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="add_win">Edit wins</string>
+</resources>
